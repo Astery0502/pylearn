@@ -2,6 +2,30 @@
 
 [TOC]
 
+## Community ##
+
+- pydata: A Google Group list for questions related to Python for data analysis and pandas
+- pystatsmodels: For statsmodels or pandas-related questions
+- Mailing list for scikit-learn (scikit-learn@python.org) and machine learning in Python, generally
+- numpy-discussion: For NumPy-related questions
+- scipy-user: For general SciPy or scientific Python questions
+
+## IPYTHON SHORTCUTS ##
+| Keyboard shortcut    | Description                                                                          |
+|----------------------|--------------------------------------------------------------------------------------|
+| Ctrl-P or up-arrow   | Search backward in command history for commands starting with currently entered text |
+| Ctrl-N or down-arrow | Search forward in command history for commands starting with currently entered text  |
+| Ctrl-R               | Readline-style reverse history search (partial matching)                             |
+| Ctrl-Shift-V         | Paste text from clipboard                                                            |
+| Ctrl-C               | Interrupt currently executing code                                                   |
+| Ctrl-A               | Move cursor to beginning of line                                                     |
+| Ctrl-E               | Move cursor to end of line                                                           |
+| Ctrl-K               | Delete text from cursor until end of line                                            |
+| Ctrl-U               | Discard all text on current line                                                     |
+| Ctrl-F               | Move cursor forward one character                                                    |
+| Ctrl-B               | Move cursor back one character                                                       |
+| Ctrl-L               | Clear screen                                                                         |
+
 ## List ##
 - list is mutable.
 - modifying a list change the value but the id.
@@ -127,5 +151,4 @@ dict.get(key, fallback_value)
 ```python
 dict.setdefault(key,value)
 ```
-
 
