@@ -103,4 +103,18 @@ just type: *conda deactivate*
 *conda activate* with no environment spcified is better for returning to the *base*, or conda cannot work at all for the local shell  
 but for the *--stack* activated env, *conda deactivate* is better
 
-### 
+### Direct package of conda environment ###
+
+In the localhost connected with the outer web, we can easily transfer the *conda environment* with the *.yml* file or just *.txt* file which contains the environment content such as packages or python version.  
+
+However, in a local environment, we cannot receive the packages from https protocol. So what we expect is just pack my existing environment in one platform, use *conda-pack* to compress the entire environment.
+
+[conda-pack](https://conda.github.io/conda-pack)
+
+### change jupyet kernel of different conda environments ###
+
+```bash
+conda install ipykernel
+python -m ipykernel install --user --name <conda environment name> --display-name "<kernel name>"
+```
+
